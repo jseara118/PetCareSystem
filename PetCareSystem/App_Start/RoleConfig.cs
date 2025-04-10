@@ -1,15 +1,8 @@
-﻿using System;
 using Microsoft.AspNet.Identity;
-using Microsoft.AspNet.Identity.Owin;
-using Microsoft.Owin;
-using Microsoft.Owin.Security.Cookies;
-using Microsoft.Owin.Security.Google;
-using Owin;
-using PetCareSystem.Models;
 using Microsoft.AspNet.Identity.EntityFramework;
+using PetCareSystem.Models;
 
-
-namespace PetCareSystem
+namespace PetCareSystem.App_Start
 {
     public class RoleConfig
     {
